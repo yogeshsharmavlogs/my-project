@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx"
 import { Link } from "react-router-dom"
-import Footer from "./Footer";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   const slides = [
