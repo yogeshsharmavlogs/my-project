@@ -1,26 +1,26 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import About from "../pages/About";
-import Home from "../pages/Home";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Tenders from "../pages/Tenders";
-import Carrers from "../pages/Carrers";
-import Contacts from "../pages/Contacts";
-import CmHelpline from "./CMHELPLINE";
-import Who from "../pages/Who";
-import Policy from "../pages/Policy";
-import DataCenter from "./DataCenter";
-import EGatePass from "./EGatePass";
-import ApuniSarkar from "./ApuniSarkar";
-import Unnati from "./Unnati";
-import Uidai from "./Uidai";
-import Darc from "./Darc";
-import Ukswan from "./Ukswan";
-import Eoffice from "./Eoffice";
-import DigiLocker from "./DigiLocker";
-import NegpProjects from "./NegpProjects";
-import MmpProjects from "./MmpProjects";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Tenders from "./pages/Tenders";
+import Carrers from "./pages/Carrers";
+import Contacts from "./pages/Contacts";
+import CmHelpline from "./Components/CMHELPLINE";
+import Who from "./pages/Who";
+import Policy from "./pages/Policy";
+import DataCenter from "./Components/DataCenter";
+import EGatePass from "./Components/EGatePass";
+import ApuniSarkar from "./Components/ApuniSarkar";
+import Unnati from "./Components/Unnati";
+import Uidai from "./Components/Uidai";
+import Darc from "./Components/Darc";
+import Ukswan from "./Components/Ukswan";
+import Eoffice from "./Components/Eoffice";
+import DigiLocker from "./Components/DigiLocker";
+import NegpProjects from "./Components/NegpProjects";
+import MmpProjects from "./Components/MmpProjects";
 
 const AllRoutes = () => {
   return (
