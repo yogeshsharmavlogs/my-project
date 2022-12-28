@@ -120,21 +120,21 @@ const Home = () => {
        <div className="webLinks mt-10 flex">
         {/* <marquee>    */}
           <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="make-in-india.png" alt="make-in-india-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="skill-india.png" alt="skill-india-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="my-gov.png" alt="my-gov-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="taal.png" alt="taal-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="nsdc.png" alt="nsdc-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="india-core.png" alt="india-core-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="digi-locker.png" alt="digi-locker-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="india-gov.png" alt="india-gov-logo"/> </a>
+          <a href="https://www.skillindia.gov.in/"><img className="h-36 hover:shadow-2xl" src="skill-india.png" alt="skill-india-logo"/> </a>
+          <a href="https://www.mygov.in/"><img className="h-36 hover:shadow-2xl" src="my-gov.png" alt="my-gov-logo"/> </a>
+          <a href="https://etaal.gov.in/"><img className="h-36 hover:shadow-2xl" src="taal.png" alt="taal-logo"/> </a>
+          <a href="https://nsdcindia.org/"><img className="h-36 hover:shadow-2xl" src="nsdc.png" alt="nsdc-logo"/> </a>
+          <a href="https://www.indiacode.nic.in/"><img className="h-36 hover:shadow-2xl" src="india-core.png" alt="india-core-logo"/> </a>
+          <a href="https://www.digilocker.gov.in/"><img className="h-36 hover:shadow-2xl" src="digi-locker.png" alt="digi-locker-logo"/> </a>
+          <a href="https://www.india.gov.in/"><img className="h-36 hover:shadow-2xl" src="india-gov.png" alt="india-gov-logo"/> </a>
           </div>  
           <div className="webLinks mt-10 flex">
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="negd.png" alt="negd-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="gem-e-gov.png" alt="gem-e-gov-logo"/> </a>
+          <a href="https://negd.gov.in/"><img className="h-36 hover:shadow-2xl" src="negd.png" alt="negd-logo"/> </a>
+          <a href="https://gem.gov.in/"><img className="h-36 hover:shadow-2xl" src="gem-e-gov.png" alt="gem-e-gov-logo"/> </a>
           <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="ras-system.png" alt="ras-system-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="data-gov.png" alt="data-gov-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="mobile-seva.png" alt="mobile-seva-logo"/> </a>
-          <a href="https://www.makeinindia.com/"><img className="h-36 hover:shadow-2xl" src="umang.png" alt="umang-logo"/> </a>
+          <a href="https://data.gov.in/"><img className="h-36 hover:shadow-2xl" src="data-gov.png" alt="data-gov-logo"/> </a>
+          <a href="https://mgov.gov.in/"><img className="h-36 hover:shadow-2xl" src="mobile-seva.png" alt="mobile-seva-logo"/> </a>
+          <a href="https://web.umang.gov.in/"><img className="h-36 hover:shadow-2xl" src="umang.png" alt="umang-logo"/> </a>
           {/* </marquee> */}
           </div>
       
