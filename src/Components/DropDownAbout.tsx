@@ -41,11 +41,15 @@ const items: MenuProps['items'] = [
   },
   {
     key: '5',
-    label: 'Projects',
+    label: (
+        <Link to="/projects">Projects</Link>
+    ),
   },
   {
     key: '6',
-    label: 'Gallery',
+    label: (
+        <Link to="/gallery">Gallery</Link>
+    ),
   }
 ];
 

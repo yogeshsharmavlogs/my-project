@@ -1,15 +1,13 @@
 import React from 'react'
 
-import PDFViewer from 'pdf-viewer-reactjs'
-
 const Policy = () => {
-    return (
-        <PDFViewer
-            document={{
-                url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
-            }}
-        />
-    )
+  return (
+    <div>
+      <h1 className="text-4xl font-bold font text-[#201352] pl-40 pt-6">
+            Policy 
+        </h1>
+    </div>
+  )
 }
 
 export default Policy

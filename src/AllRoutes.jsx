@@ -23,6 +23,12 @@ import NegpProjects from "./Components/NegpProjects";
 import MmpProjects from "./Components/MmpProjects";
 import RTI from "./pages/RTI";
 import GoverningBody from "./pages/GoverningBody";
+import Projects from "./pages/Projects";
+import Gallery from "./pages/Gallery";
+import MPR from "./pages/MPR";
+import ActRules from "./pages/ActRules";
+import Agreement from "./pages/Agreement";
+import MOM from "./pages/MOM";
 
 const AllRoutes = () => {
   return (
@@ -51,6 +57,13 @@ const AllRoutes = () => {
           <Route exact path="/mmpProjects" element={<MmpProjects />} />
           <Route exact path="/rti" element={<RTI />} />
           <Route exact path="/governingBody" element={<GoverningBody />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/mpr" element={<MPR />} />
+          <Route exact path="/actRules" element={<ActRules />} />
+          <Route exact path="/agreement" element={<Agreement />} />
+          <Route exact path="/mom" element={<MOM />} />
+
 
 
           <Route path="*" element={<Error />} />

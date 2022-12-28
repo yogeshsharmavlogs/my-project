@@ -399,7 +399,7 @@ const Who = () => {
       <p className="text-base font-medium pt-10 text-center text-[#1D1D1D]">
         Projects
       </p>
-      <div className="table pt-6 pl-[150px] text-center object-center">
+      <div className="table pt-6 pl-[100px] pr-20 text-center object-center">
         <table className="rounded-lg text-[#6B7280] table-fixed border border-slate-400 min-w-full">
           <thead className="border-b">
             <tr>
@@ -428,94 +428,100 @@ const Who = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 1
               </td>
-              <td className="border border-slate-300 px-6 py-4">Shri.</td>
+              <td className="border border-slate-300 px-6 py-4">Mr.</td>
               <td className="border border-slate-300 px-6 py-4">
-                Amit Kumar Sinha , I.P.S
+                Sanjeev Sharma
               </td>
-              <td className="border border-slate-300 px-6 py-4">Director</td>
               <td className="border border-slate-300 px-6 py-4">
-                diritda-uk[at]nic[dot]in
+                Project Manager (FMS), UKSWAN
               </td>
-              <td className="border border-slate-300 px-6 py-4">01352608330</td>
+              <td className="border border-slate-300 px-6 py-4">
+                sanjeevsharma[dot]itda [at]uk[dot]gov[dot]in
+              </td>
+              <td className="border border-slate-300 px-6 py-4">9690400777</td>
             </tr>
             <tr>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 2
               </td>
+              <td className="border border-slate-300 text-[#6B7280]">Mr</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                Mayank Pandey
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                Project Manage (PMC), SDC
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                mayankpandey[dot]itda [at]uk[dot]gov[dot]in
+              </td>
+              <td className="border border-slate-300 text-[#6B7280]">
+                9810561468
               </td>
             </tr>
             <tr>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 3
               </td>
+              <td className="border border-slate-300 text-[#6B7280]">Mr</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Detroit
+                Shyan Ali
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                Project Advisor, (Drone), PMC
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                shyanali[dot]itda[at]uk [dot]gov[dot]in
+              </td>
+              <td className="border border-slate-300 text-[#6B7280]">
+                7895745244
               </td>
             </tr>
             <tr>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 4
               </td>
+              <td className="border border-slate-300 text-[#6B7280]">Mr</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Indianapolis
+                Nalin Thapliyal
               </td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Indiana
+                Project Manager, CM Helpline
               </td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Indianapolis
+                nalindev[dot]itda[at]uk [dot]gov[dot]in
               </td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Indiana
-              </td>
-              <td className="border border-slate-300 text-[#6B7280]">
-                Indianapolis
+                9412439819
               </td>
             </tr>
             <tr>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 5
               </td>
+              <td className="border border-slate-300 text-[#6B7280]">Mr</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                Sunil Kumar Vishnoi
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                Consultant, HILTRON
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Columbus
+                sunil[dot]vishnoi[dot]itda [at]uk[dot]gov[dot]in
+              </td>
+              <td className="border border-slate-300 text-[#6B7280]">
+                9412054930
               </td>
             </tr>
             <tr>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 6
               </td>
+              <td className="border border-slate-300 text-[#6B7280]">Mr</td>
               <td className="border border-slate-300 text-[#6B7280]">
-                Detroit
+                Sawan Kapoor
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280] ">
-                Columbus
+                Project Manager, Apuni Sarkar
               </td>
               <td className="border border-slate-300 text-[#6B7280] ">Ohio</td>
               <td className="border border-slate-300 text-[#6B7280] ">
@@ -526,14 +532,12 @@ const Who = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 7
               </td>
-              <td className="border border-slate-300 text-[#6B7280]">
-                Indianapolis
+              <td className="border border-slate-300 text-[#6B7280]">Mrs</td>
+              <td className="border border-slate-300 text-[#6B7280] ">
+                Garima Sharma
               </td>
               <td className="border border-slate-300 text-[#6B7280] ">
-                Indiana
-              </td>
-              <td className="border border-slate-300 text-[#6B7280] ">
-                Indianapolis
+                Project Manager, Apuni Sarkar
               </td>
               <td className="border border-slate-300 text-[#6B7280] ">
                 Indiana

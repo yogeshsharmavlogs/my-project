@@ -2,27 +2,38 @@ import React from 'react';
 import { DownOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Dropdown, Space } from 'antd';
+import { Link } from 'react-router-dom';
 
 const items: MenuProps['items'] = [
   {
     key: '1',
-    label: 'RTI',
+    label: (
+        <Link to="/rti">RTI</Link>
+    ),
   },
   {
     key: '2',
-    label: 'MPR',
+    label: (
+        <Link to="/mpr"> MPR </Link>
+    ),
   },
   {
     key: '3',
-    label: 'Acts & Rules',
+    label: (
+         <Link to="/actRules">Acts & Rules</Link>
+    ),
   },
   {
     key: '4',
-    label:'Agreements/MOU',
+    label: (
+        <Link to="/agreement">Agreements/MOU</Link>
+    ),
   },
   {
     key: '5',
-    label: 'MOM',
+    label: (
+         <Link to="/mom">MOM</Link>
+    ),
   },
 ];
 
