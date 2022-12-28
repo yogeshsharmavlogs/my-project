@@ -1,10 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
+import PDFViewer from 'pdf-viewer-reactjs'
 
 const Policy = () => {
-  return (
-    <div>Policy</div>
-  )
+    return (
+        <PDFViewer
+            document={{
+                url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
+            }}
+        />
+    )
 }
 
-export default Policy;
+export default Policy

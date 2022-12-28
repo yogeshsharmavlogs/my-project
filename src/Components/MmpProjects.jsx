@@ -21,7 +21,7 @@ const MmpProjects = () => {
         Components of Mission Mode Projects
       </h1>
 
-      <ul className="pl-60 pt-4 list-disc">
+      <ul className="pl-60 pt-4 list-disc pr-40">
         <li>Capacity building scheme – The scheme envisions</li>
         <li>
           Establishment of Institutional Framework for State Level Strategic

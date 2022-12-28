@@ -21,6 +21,8 @@ import Eoffice from "./Components/Eoffice";
 import DigiLocker from "./Components/DigiLocker";
 import NegpProjects from "./Components/NegpProjects";
 import MmpProjects from "./Components/MmpProjects";
+import RTI from "./pages/RTI";
+import GoverningBody from "./pages/GoverningBody";
 
 const AllRoutes = () => {
   return (
@@ -47,6 +49,8 @@ const AllRoutes = () => {
           <Route exact path="/digiLocker" element={<DigiLocker />} />
           <Route exact path="/negpProjects" element={<NegpProjects />} />
           <Route exact path="/mmpProjects" element={<MmpProjects />} />
+          <Route exact path="/rti" element={<RTI />} />
+          <Route exact path="/governingBody" element={<GoverningBody />} />
 
 
           <Route path="*" element={<Error />} />

@@ -22,10 +22,10 @@ const Darc = () => {
         effectively in their workplaces and wider enterprises.
       </p>
     <div className="buttons flex pt-6">
-        <div className="first-button rounded-lg hover:bg-red-200 border-[#AABCEC] border-solid border-2 w-32 h-12 ml-56">     
+        <div className="first-button rounded-lg hover:bg-green-100 border-[#AABCEC] border-solid border-2 w-32 h-12 ml-56">     
          <button className="text-[#201352] pl-5 pt-2 font-bold border-black">DARC Lake</button>
         </div>
-        <div className="second-button rounded-lg hover:bg-red-200 border-[#AABCEC] border-solid border-2 w-32 h-12 ml-20">
+        <div className="second-button rounded-lg hover:bg-green-100 border-[#AABCEC] border-solid border-2 w-32 h-12 ml-20">
           <button className="text-[#201352] pl-7 pt-2 font-bold">Calender</button>
         </div>
     </div>
