@@ -6,6 +6,12 @@ import { Link } from 'react-router-dom';
 
 const items: MenuProps['items'] = [
   {
+    key: '0',
+    label: (
+         <Link to="/policy">Policy</Link>
+    ),
+  },
+  {
     key: '1',
     label: (
         <Link to="/rti">RTI</Link>

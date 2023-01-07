@@ -65,7 +65,6 @@ const AllRoutes = () => {
           <Route exact path="/mom" element={<MOM />} />
 
 
-
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

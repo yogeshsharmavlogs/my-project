@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom';
 const items: MenuProps['items'] = [
   {
     key: '1',
-    label: 'Objectives',
+    label: (
+        <Link to="#objectives">Objectives</Link>
+    ),
   },
   {
     key: '2',

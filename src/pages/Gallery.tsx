@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Button, Image, Space } from 'antd';
 import { Link } from 'react-router-dom';
 
-const Gallery = () => {
+const Gallery: React.FC = () => {
+  const [random, setRandom] = useState<number>();
+
   return (
-    <div>
-        <h1>
-            helllooooo...  This is Gallery....
-        </h1>
-    </div>
-);
+      <Image
+    width={200}
+    src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+  />
+  );
 };
 
-
 export default Gallery;
+
+
+
+
+
+
+
+
+
+
+
+
