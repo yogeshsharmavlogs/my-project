@@ -32,17 +32,17 @@ const Navbar = () => {
           English
         </a>
       </nav>
-      <nav className="navigation2 flex h-28 shadow-xl">
+      <nav className="navigation2 flex h-28">
         <img
-          className="h-24 pl-16 inline-block mt-2"
+          className="h-24 pl-16 inline-block mt-3"
           src="itda-logo.png"
           alt="itda-logo"
         />
-        <p className="font-bold text-xl font-sans pt-5">
+        <p className="font-bold text-xl font-sans pt-8">
           INFORMATION TECHNOLOGY <br />
           DEVELOPMENT AGENCY (I.T.D.A)
         </p>
-        <div className="pt-10">
+        <div className="pt-12">
           <Link
             className="font-sans font-medium pr-4 pl-10 text-gray-600 hover:underline"
             to="/"

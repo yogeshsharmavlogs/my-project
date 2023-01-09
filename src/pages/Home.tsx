@@ -17,7 +17,7 @@ const contentStyle: React.CSSProperties = {
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="mt-6">
       <Carousel autoplay>
         <div>
           <div style={contentStyle}><img className="object-contain w-full h-[450px]" src="/cyber-security.png" alt="cyber-security" /></div>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </Carousel>
 
-      <div className="ml-44 mt-14 h-[381px] w-[900px] shadow-2xl rounded-md">
+      <div className="ml-44 mt-14 h-[381px] w-[900px] shadow-xl rounded-md">
         <h1 className="pt-8 text-3xl font-bold text-center text-[#201352]">
           Official Website of ITDA
         </h1>
@@ -62,25 +62,24 @@ const Home = () => {
       </div>
       <div className="image-link">
         <div className="first-row flex pt-20">
-          <div className="h-10 rounded-2xl border"><img src="" alt="" /></div>
-          <Link to="/cmHelpline"><img className="h-32 ml-56 hover:shadow-2xl" src="cm-helpline.png" alt="cm-helpline" /> </Link>
-          <Link to="/dataCenter"><img className="h-32 ml-10 hover:shadow-2xl" src="data-center.png" alt="data-center" /></Link>
-          <Link to="/eGatePass"><img className="h-32 ml-10 hover:shadow-2xl" src="e-gate-pass.png" alt="e-gate-pass" /></Link>
-          <Link to="/apuniSarkar"><img className="h-32 ml-10 hover:shadow-2xl" src="apuni-sarkar-link.png" alt="apuni-sarkar-logo" /></Link>
+          <Link to="/cmHelpline"> <div className="h-[110px] w-[150px] ml-64 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-3" src="Group-one.png" alt="cm-helpline" /> <p className="text-[#1507A2] font-medium text-xs pt-1">CM Help Line <br /> "1905"</p></div></Link> 
+          <Link to="/dataCenter"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-3" src="Group-two.png" alt="data-center" /> <p className="text-[#1507A2] font-medium text-xs pt-1">Uttarakhand State <br /> Data Centre </p></div></Link>
+          <Link to="/eGatePass"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-11 mt-4" src="Group-three.png" alt="e-gate-pass" /> <p className="text-[#1507A2] font-medium text-xs pt-2">eGate Pass</p></div></Link>
+          <Link to="/apuniSarkar"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-11 mt-5" src="Group-four.png" alt="apuni-sarkar" /> <p className="text-[#1507A2] font-medium text-xs pt-1">Apuni Sarkar</p></div></Link>
         </div>
 
         <div className="second-row flex pt-6">
-          <Link to="/unnati"><img className="h-32 ml-56 hover:shadow-2xl" src="unnati-logo.png" alt="unnati-logo" /> </Link>
-          <Link to="/uidai"><img className="h-32 ml-10 hover:shadow-2xl" src="uidai-logo.png" alt="uidai-logo.png" /></Link>
-          <Link to="/darc"><img className="h-32 ml-10 hover:shadow-2xl" src="darc-logo.png" alt="darc-logo" /></Link>
-          <Link to="/ukswan"><img className="h-32 ml-10 hover:shadow-2xl" src="uk-swan-logo.png" alt="uk-swan-logo" /></Link>
+          <Link to="/unnati"> <div className="h-[110px] w-[150px] ml-64 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-4" src="Group-five.png" alt="unnati-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-1 pr-3">Unnati</p></div></Link> 
+          <Link to="/uidai"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-10 mt-4" src="Group-six.png" alt="uidai-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-2">UIDAI (Aadhar)</p></div></Link>
+          <Link to="/darc"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-6 mt-4" src="Group-seven.png" alt="darc-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-2">DARC</p></div></Link>
+          <Link to="/ukswan"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 w-10 mt-5" src="Group-eight.png" alt="uk-swan-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-1 pr-3">UKSWAN</p></div></Link>
         </div>
 
         <div className="third-row flex pt-6">
-          <Link to="/eoffice"><img className="h-32 ml-56 hover:shadow-2xl" src="e-office-logo.png" alt="e-office-logo" /> </Link>
-          <Link to="/digiLocker"><img className="h-32 ml-10 hover:shadow-2xl" src="digi-locker-logo.png" alt="digi-locker-logo" /></Link>
-          <Link to="/negpProjects"><img className="h-32 ml-10 hover:shadow-2xl" src="negp-logo.png" alt="negp-projects-logo" /></Link>
-          <Link to="/mmpProjects"><img className="h-32 ml-10 hover:shadow-2xl" src="mmp-logo.png" alt="mmp-projects-logo" /></Link>
+          <Link to="/eoffice"> <div className="h-[110px] w-[150px] ml-64 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-4" src="Group-nine.png" alt="e-office-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-2">e-Office</p></div></Link> 
+          <Link to="/digiLocker"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-4" src="Group-ten.png" alt="digi-locker-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-2"> DigiLocker</p></div></Link>
+          <Link to="/negpProjects"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-4" src="Group-eleven.png" alt="negp-projects-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-2">NeGP Projects</p></div></Link>
+          <Link to="/mmpProjects"> <div className="h-[110px] w-[150px] ml-10 rounded-xl border text-center shadow-md hover:shadow-2xl"><img className="h-12 ml-12 mt-5" src="Group-twelve.png" alt="mmp-projects-logo" /> <p className="text-[#1507A2] font-medium text-xs pt-1">MMP Projects</p></div></Link>
         </div>
       </div>
 
