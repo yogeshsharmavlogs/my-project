@@ -33,7 +33,7 @@ const Who = () => {
               </th>
               <th className="border border-slate-300 text-sm font-medium text-gray-900 px-6 py-4 text-center">
                 Mobile No.
-              </th>
+             </th> 
             </tr>
           </thead>
           <tbody>
@@ -42,10 +42,10 @@ const Who = () => {
                 1
               </td>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                Shri.
+                Miss
               </td>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900  ">
-                Amit Kumar Sinha , I.P.S
+                Nitika Khandelwal, IAS
               </td>
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 Director

@@ -35,7 +35,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Chief Secretary, GoUK.
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280] ">
               Chairman
               </td>
             </tr>
@@ -46,7 +46,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretary/Secretary, IT, GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Vice Chairman
               </td>
             </tr>
@@ -57,7 +57,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretary/Secretary, Personnel,GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -68,7 +68,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretary/Secretary, Finance, GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -79,7 +79,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretary/Secretary, Industry, GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -90,7 +90,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretar/Secretary, Technical Education, GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -101,7 +101,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretary/Secretary, Education, GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -112,7 +112,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Principal Secretary/Secretary, Rural Development, GoUK
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -123,7 +123,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Additional Secretary, Information Technology, GoUK   
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -134,7 +134,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Director, Information Technology Development Agency (ITDA), Uttarakhand
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member Secretary
               </td>
             </tr>
@@ -145,7 +145,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Finance Controller, Information Technology Development Agency (ITDA), Uttarakhand
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -156,7 +156,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               SIO, NIC, Uttarakhand State Unit, Dehradun
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>
@@ -167,7 +167,7 @@ const GoverningBody = () => {
               <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Two IT Expert to be nominated by the Chairman
               </td>
-              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]  ">
+              <td className="border border-slate-300 px-6 py-4 whitespace-nowrap text-sm font-medium text-[#6B7280]">
               Member
               </td>
             </tr>

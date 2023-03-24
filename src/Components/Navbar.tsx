@@ -5,8 +5,8 @@ import DropDownPolicy from "./DropDownPolicy";
 
 const Navbar = () => {
   return (
-    <div className="h-40 sticky shadow-md z-30 w-full scroll-smooth top-0 bg-white">
-      <nav className="navigation1 flex px-40 pt-3 h-9 shadow-xl justify-end">
+    <div className="h-40 sticky z-30 w-full scroll-smooth top-0 bg-white">
+      <nav className="navigation1 flex px-40 pt-3 h-9 shadow-sm justify-end">
         <a href="#">
           <img className="h-3 pr-6" src="/sitemap.png" alt="" />
         </a>
@@ -54,9 +54,9 @@ const Navbar = () => {
             className="font-sans font-medium pr-4 text-gray-600 hover:underline"
             id="about-btn"
           >
-            <a href="/about">
+            <Link to="/about">
               <DropDownAbout />
-            </a>
+            </Link>
           </button>
 
           <Link className="font-sans font-medium pr-4 text-gray-600 hover:underline" to="/who">
